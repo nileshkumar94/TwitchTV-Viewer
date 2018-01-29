@@ -44,6 +44,7 @@ h1 {
     font-size: 0.8em;
     font-weight: bold;
     text-transform: uppercase;
+    padding-bottom: 5%;
 }
 
 .circle {
@@ -79,7 +80,8 @@ p {
     margin: 0px;
 }
 
-#header #footer {
+#header,
+#footer {
     position: relative;
     background-color: #5c5457;
     color: #e1e1e6;
