@@ -73,3 +73,15 @@ h1 {
     clear: right;
     transition: width 0.4s linear;
 }
+
+p {
+    float: right;
+    margin: 0px;
+}
+
+#header #footer {
+    position: relative;
+    background-color: #5c5457;
+    color: #e1e1e6;
+    padding: 5px 65px 5px 15px;
+}
