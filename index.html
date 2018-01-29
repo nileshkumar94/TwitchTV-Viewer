@@ -10,15 +10,34 @@
 </head>
 
 <body>
+
     <div class="container">
-        <h1>Twitch streamers</h1>
-        <form>
-            <input id="all" type="radio" name="status" value="all" checked> All<br>
-            <input id="online" type="radio" name="status" value="online"> Online<br>
-            <input id="offline" type="radio" name="status" value="offline"> Offline
-        </form>
-        <div class="streamer-display"></div>
+        <div class="row" id="header">
+
+            <h1>Twitch streamers</h1>
+            <div class="menu">
+                <div class="selector active" id="all">
+                    <div class="circle"></div>
+                    <p>All</p>
+                </div>
+                <div class="selector" id="online">
+                    <div class="circle"></div>
+                    <p>Online</p>
+                </div>
+                <div class="selector" id="offline">
+                    <div class="circle"></div>
+                    <p>Offline</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <div id="display">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
 
 </html>
